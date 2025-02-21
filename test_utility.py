@@ -39,4 +39,5 @@ def test_data_split(feature_target_sample):
     return_tuple = data_split(*feature_target_sample)
     # TODO test if the length of return_tupl
     assert len(return_tuple) == 4
+    # oops i forgot to set my username - used Zijinc's instead
     # raise NotImplemented
